@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Gym Membership Form</title>
+</head>
+<body>
+
+<!-- Gym Image -->
+<img src="gym.jpg" alt="Gym Image" width="100%" height="300">
+
+<h3>Gym Membership Form 🏋️‍♂️</h3>
+
+<form>
+    <!-- Personal Details Section -->
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <label>Full Name:</label>
+        <input type="text" name="full_name" placeholder="Enter your name" required />
+        <br /><br />
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required />
+        <br /><br />
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required /> Male
+        <input type="radio" name="gender" value="female" required /> Female
+        <br /><br />
+
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" placeholder="Enter your phone number" required />
+        <br /><br />
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <br /><br />
+
+        <label>Address:</label>
+        <textarea name="address" placeholder="Enter your address" rows="4" cols="40" required></textarea>
+        <br /><br />
+
+        <!-- Audio Tag -->
+        <label>Gym Motivation Audio:</label><br>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+        <br /><br />
+    </fieldset>
+
+    <!-- Membership Details Section -->
+    <fieldset>
+        <legend>Membership Details</legend>
+
+        <label>Select Membership Plan:</label>
+        <select name="membership_plan" required>
+            <option>Basic</option>
+            <option>Standard</option>
+            <option>Premium</option>
+        </select>
+        <br /><br />
+
+        <label>Membership Duration:</label>
+        <select name="membership_duration" required>
+            <option>1 month</option>
+            <option>3 months</option>
+            <option>6 months</option>
+        </select>
+        <br /><br />
+
+        <label>Start Date:</label>
+        <input type="date" name="start_date" required />
+        <br /><br />
+
+        <label>Payment Method:</label>
+        <input type="radio" name="payment" value="credit_card" required /> Credit Card
+        <input type="radio" name="payment" value="debit_card" required /> Debit Card
+        <input type="radio" name="payment" value="upi" required /> UPI
+    </fieldset>
+
+    <!-- Fitness Preferences Section -->
+    <fieldset>
+        <legend>Fitness Preferences</legend>
+
+        <label>Preferred Workout Time:</label>
+        <select name="workout_time" required>
+            <option>Morning (6am-9am)</option>
+            <option>Late Morning (9am-2pm)</option>
+            <option>Evening (4pm-6pm)</option>
+            <option>Night (6pm-12am)</option>
+        </select>
+        <br /><br />
+
+        <label>Fitness Goal:</label>
+        <input type="checkbox" name="goal" value="weight_loss" /> Weight Loss
+        <input type="checkbox" name="goal" value="muscle_gain" /> Muscle Gain
+        <input type="checkbox" name="goal" value="general_fitness" /> General Fitness
+        <br /><br />
+
+        <!-- Video Tag -->
+        <label>Workout Demo Video:</label><br>
+        <video width="100%" height="300" controls>
+            <source src="workout.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br /><br />
+    </fieldset>
+
+    <!-- Submit and Reset Buttons -->
+    <br />
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>

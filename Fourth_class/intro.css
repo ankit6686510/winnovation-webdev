@@ -1,0 +1,17 @@
+h1{
+   border: 2px dashed black;
+   border: 2px dotted rgb(219, 17, 17);
+   color: rgb(1, 40, 155);
+   background-color: aquamarine;
+   text-indent: 50px;
+   /* text-transform: uppercase; */
+   text-transform: capitalize;
+   /* padding: auto; */
+   letter-spacing: 10px; /*space bw letter*/
+   word-spacing: 10px;
+}
+h2{
+    text-shadow: 10px 10px 10px rgb(34, 228, 115);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  Arial, sans-serif;
+}
