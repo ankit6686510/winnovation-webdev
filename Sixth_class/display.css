@@ -1,0 +1,23 @@
+h1{
+    display: none;
+}
+a{
+    /* display: block; */
+    display: inline;
+}
+.outer{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    position: relative; /*jiski posn change nhi ki jaa sakti hai eg. dharti */
+    
+    
+}
+.inner{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;  
+    position: absolute;/*jiski posn change ki jaa sakti hai eg. person on land */
+    top: 200px;
+    right: 0;
+}

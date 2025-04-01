@@ -1,0 +1,87 @@
+/* Form Heading */
+h3 {
+    border: 2px dashed #4CAF50; 
+    border: 2px dotted #4CAF50; 
+    color: #2C3E50; 
+    background-color: #EAF2F8; 
+    text-indent: 30px; 
+    text-transform: capitalize; 
+    letter-spacing: 5px; 
+    word-spacing: 8px; 
+    padding: 10px;
+}
+
+/* Fieldset Legends */
+legend {
+    text-shadow: 2px 2px 5px #5DADE2; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #1C2833;
+    
+}
+
+/* Labels */
+label {
+    color: #2C3E50; 
+    letter-spacing: 1px; 
+    word-spacing: 3px; 
+    font-weight: bold;
+}
+
+/* Inputs, Selects, Textareas */
+input, select, textarea {
+    border: 2px dashed #5DADE2; 
+    color: #34495E; 
+    background-color: #FDFEFE; 
+    letter-spacing: 1px; 
+    word-spacing: 2px; 
+    text-indent: 5px; 
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+/* Fieldsets */
+fieldset {
+    border: 2px dotted #3498DB; 
+    background-color: #F4F6F7; 
+    color: #2C3E50; 
+    letter-spacing: 2px; 
+    word-spacing: 4px; 
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    border: 2px dashed #27AE60; 
+    background-color: #27AE60; 
+    color: white; 
+    text-transform: capitalize; 
+    letter-spacing: 2px; 
+    word-spacing: 4px; 
+    cursor: pointer; 
+    padding: 10px 20px; 
+    transition: all 0.3s ease;
+}
+
+/* Button Hover */
+button:hover, input[type="submit"]:hover {
+    border: 2px dotted #000000; 
+    background-color: #2ECC71; 
+    color: white; 
+}
+
+/* Add spacing between form elements */
+form > fieldset > label, input, select, textarea {
+    display: block; 
+    margin: 10px 0;
+}
+
+/* Hover Effects for Inputs */
+input:hover, select:hover, textarea:hover {
+    border: 2px dotted #2980B9; 
+    background-color: #ECF0F1; 
+    color: #2C3E50;
+}
+
